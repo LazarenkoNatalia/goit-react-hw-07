@@ -10,7 +10,9 @@
 .contField {
     color: black;
     font-size: 18px;
+    width: 210px;
     margin: 10px;
+    margin-right: 0;
     
 
 }
