@@ -19,8 +19,7 @@ const contactsSlice = createSlice({
     .addCase(fetchContacts.fulfilled, (state, action) => {
       state.loading = false
       state.items = action.payload
-      console.log(action.payload)
-      console.log(state.items)
+      
      })
     .addCase(fetchContacts.rejected, (state) => {
       state.loading = false
